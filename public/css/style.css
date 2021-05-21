@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 :root {
-  --dark-color-a: cadetblue;
-  --dark-color-b: darkslategrey;
+  --dark-color-a: #341671;
+  --dark-color-b: #280659;
   --light-color: #e6e9ff;
   --success-color: #5cb85c;
   --error-color: #d9534f;
+  --accent-color: orange;
 }
 
 * {
@@ -37,7 +38,9 @@ a {
   border: 0;
   font-size: 17px;
 }
-
+.logo-Color {
+  color: var(--accent-color);
+}
 /* Chat Page */
 
 .chat-container {
